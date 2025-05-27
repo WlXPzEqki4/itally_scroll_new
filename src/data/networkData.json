@@ -1,0 +1,486 @@
+
+{
+  "timeline": [
+    {
+      "id": "march_2022_foundation",
+      "date": "2022-03-11",
+      "title": "The Foundation",
+      "description": "Bassem Arsan establishes supply chain from Iran through Damascus to Ghasm village farm",
+      "scrollPosition": 1,
+      "characters": ["bassem_arsan", "rafi_al_ruwais"],
+      "locations": ["damascus", "ghasm_farm"],
+      "events": ["supply_chain_established", "first_production"],
+      "type": "foundation",
+      "phase": "Phase 1",
+      "impact": "high"
+    },
+    {
+      "id": "march_2022_investment",
+      "date": "2022-03-04",
+      "title": "Strategic Investment",
+      "description": "$700,000 operation through Outpost 89 provides funding for expansion",
+      "scrollPosition": 2,
+      "characters": ["rafi_al_ruwais", "khaldoun_al_hatiti"],
+      "locations": ["outpost_89"],
+      "events": ["major_funding_secured"],
+      "type": "financial",
+      "phase": "Phase 1",
+      "impact": "high"
+    },
+    {
+      "id": "july_2022_scaling",
+      "date": "2022-07-15",
+      "title": "Industrial Scale",
+      "description": "Production capabilities expanded with new equipment and facilities",
+      "scrollPosition": 3,
+      "characters": ["rafi_al_ruwais", "muhammad_al_ruwais"],
+      "locations": ["ghasm_farm"],
+      "events": ["production_scaled"],
+      "type": "expansion",
+      "phase": "Phase 2",
+      "impact": "medium"
+    },
+    {
+      "id": "january_2023_fortress",
+      "date": "2023-01-20",
+      "title": "The Fortress",
+      "description": "Ghasm facility fortified with concrete walls, watchtowers, and security systems",
+      "scrollPosition": 4,
+      "characters": ["ahmed_al_ruwais"],
+      "locations": ["ghasm_farm"],
+      "events": ["facility_fortified"],
+      "type": "security",
+      "phase": "Phase 3",
+      "impact": "high"
+    },
+    {
+      "id": "major_disruption_2023",
+      "date": "2023-05-14",
+      "title": "Major Network Disruption",
+      "description": "Jordanian airstrike kills Meri Al-Rumaithan, network leadership evacuated",
+      "scrollPosition": 5,
+      "characters": ["rafi_al_ruwais"],
+      "locations": ["damascus", "ghasm_farm"],
+      "events": ["major_disruption", "leadership_evacuation"],
+      "type": "crisis",
+      "phase": "Phase 3",
+      "impact": "high",
+      "outcome": "Leadership transition, Rafi fled to Lebanon"
+    },
+    {
+      "id": "may_2023_crisis",
+      "date": "2023-05-12",
+      "title": "Crisis and Adaptation",
+      "description": "Israeli airstrikes disrupt operations, network adapts with new leadership",
+      "scrollPosition": 5,
+      "characters": ["ahmed_al_ruwais", "muhammad_al_ruwais"],
+      "locations": ["damascus", "ghasm_farm"],
+      "events": ["israeli_airstrikes", "leadership_change"],
+      "type": "crisis",
+      "phase": "Phase 3",
+      "impact": "high"
+    },
+    {
+      "id": "network_recovery_2024",
+      "date": "2024-07-01",
+      "title": "Full Network Recovery",
+      "description": "Rafi Al-Ruwais returns, enhanced military integration achieved",
+      "scrollPosition": 6,
+      "characters": ["rafi_al_ruwais", "osama_al_dayat"],
+      "locations": ["maaraba_fortress"],
+      "events": ["network_recovery", "military_integration"],
+      "type": "expansion",
+      "phase": "Phase 4",
+      "impact": "high",
+      "innovations": ["Brigade-level cooperation", "Systematic competitor elimination"]
+    },
+    {
+      "id": "july_2024_innovation",
+      "date": "2024-07-01",
+      "title": "Tactical Innovation",
+      "description": "82mm mortar system deployed for cross-border drug delivery",
+      "scrollPosition": 6,
+      "characters": ["ahmed_al_ruwais", "muhammad_al_ruwais"],
+      "locations": ["border_positions"],
+      "events": ["mortar_system_deployed"],
+      "type": "innovation",
+      "phase": "Phase 4",
+      "impact": "high"
+    },
+    {
+      "id": "generational_transition_2024",
+      "date": "2024-08-01",
+      "title": "Next Generation Leadership",
+      "description": "19-year-old Ahmed Al-Ruwais leading major operations",
+      "scrollPosition": 7,
+      "characters": ["ahmed_al_ruwais", "muhammad_al_ruwais"],
+      "locations": ["maaraba_fortress"],
+      "events": ["generational_transition"],
+      "type": "foundation",
+      "phase": "Phase 5",
+      "impact": "medium",
+      "significance": "Multi-generational criminal enterprise"
+    },
+    {
+      "id": "residential_compound_2024",
+      "date": "2024-08-07",
+      "title": "Operational Compound Established",
+      "description": "15+ permanent residents including family and cross-border personnel",
+      "scrollPosition": 8,
+      "characters": ["abdul_azeez_al_ruwais", "saqr_al_ruwais", "uday_al_ruwais"],
+      "locations": ["maaraba_fortress"],
+      "events": ["compound_establishment"],
+      "type": "security",
+      "phase": "Phase 5",
+      "impact": "high",
+      "residents": ["Al-Ruwais family", "3 permanent Jordanian personnel"]
+    }
+  ],
+  "characters": {
+    "bassem_arsan": {
+      "name": "Bassem Arsan",
+      "role": "Syrian Council of Ministers Legal Advisor",
+      "description": "Government official managing Iran medical imports, network founder",
+      "photo": null,
+      "phone": "+963-XXX-XXXX",
+      "connections": ["iran_suppliers", "ministry_health"],
+      "firstAppearance": "march_2022_foundation",
+      "status": "active",
+      "importance": "high",
+      "generation": "Original",
+      "family_relation": "Non-family"
+    },
+    "rafi_al_ruwais": {
+      "name": "Rafi Al-Ruwais",
+      "role": "Network Operator & Farm Owner",
+      "description": "Owner of Ghasm village farm, early network member",
+      "photo": null,
+      "phone": "+963-XXX-XXXX",
+      "connections": ["bassem_arsan", "border_contacts"],
+      "firstAppearance": "march_2022_foundation",
+      "status": "active",
+      "importance": "high",
+      "generation": "Original",
+      "family_relation": "Al-Ruwais family"
+    },
+    "ahmed_al_ruwais": {
+      "name": "Ahmed Al-Ruwais",
+      "role": "Operations Commander",
+      "description": "Rafi's son, assumed leadership after 2023 crisis",
+      "photo": null,
+      "phone": "+963-XXX-XXXX",
+      "connections": ["muhammad_al_ruwais", "hezbollah_contacts"],
+      "firstAppearance": "january_2023_fortress",
+      "status": "active",
+      "importance": "critical",
+      "generation": "Second Generation",
+      "family_relation": "Al-Ruwais family",
+      "age": 19
+    },
+    "muhammad_al_ruwais": {
+      "name": "Muhammad Al-Ruwais",
+      "role": "Technical Specialist",
+      "description": "Weapons and delivery systems coordinator",
+      "photo": null,
+      "phone": "+963-XXX-XXXX",
+      "connections": ["ahmed_al_ruwais", "hezbollah_contacts"],
+      "firstAppearance": "july_2022_scaling",
+      "status": "active",
+      "importance": "high",
+      "generation": "Second Generation",
+      "family_relation": "Al-Ruwais family"
+    },
+    "khaldoun_al_hatiti": {
+      "name": "Khaldoun Al-Hatiti",
+      "role": "Financial Coordinator",
+      "description": "Manages funding and financial operations",
+      "photo": null,
+      "phone": "+963-XXX-XXXX",
+      "connections": ["rafi_al_ruwais"],
+      "firstAppearance": "march_2022_investment",
+      "status": "unknown",
+      "importance": "medium",
+      "generation": "Original",
+      "family_relation": "Non-family"
+    },
+    "abdul_azeez_al_ruwais": {
+      "name": "Abdul Azeez Al-Ruwais",
+      "role": "Family Network Member",
+      "description": "Al-Ruwais family member, headquarters disrupted by vigilante groups",
+      "photo": null,
+      "phone": null,
+      "connections": ["rafi_al_ruwais"],
+      "firstAppearance": "residential_compound_2024",
+      "lastKnownActivity": "Aug 2024",
+      "status": "active",
+      "importance": "medium",
+      "generation": "Original",
+      "family_relation": "Al-Ruwais family",
+      "notes": "Headquarters disrupted by vigilante groups"
+    },
+    "saqr_al_ruwais": {
+      "name": "Saqr Al-Ruwais",
+      "role": "Compound Resident",
+      "description": "Al-Ruwais family member residing at Maaraba compound",
+      "photo": null,
+      "phone": null,
+      "connections": ["abdul_azeez_al_ruwais"],
+      "firstAppearance": "residential_compound_2024",
+      "status": "active",
+      "importance": "low",
+      "generation": "Second Generation",
+      "family_relation": "Al-Ruwais family",
+      "residence": "Maaraba compound"
+    },
+    "uday_al_ruwais": {
+      "name": "Uday Al-Ruwais",
+      "role": "Compound Resident",
+      "description": "Al-Ruwais family member residing at Maaraba compound",
+      "photo": null,
+      "phone": null,
+      "connections": ["saqr_al_ruwais"],
+      "firstAppearance": "residential_compound_2024",
+      "status": "active",
+      "importance": "low",
+      "generation": "Second Generation",
+      "family_relation": "Al-Ruwais family",
+      "residence": "Maaraba compound"
+    },
+    "osama_al_dayat": {
+      "name": "Osama Al-Dayat",
+      "alias": "Abu Ahmed",
+      "role": "8th Brigade Coordinator & Security Chief",
+      "description": "Military coordinator providing operation protection and weapons trafficking",
+      "photo": null,
+      "phone": null,
+      "connections": ["ahmed_al_ruwais"],
+      "firstAppearance": "network_recovery_2024",
+      "status": "active",
+      "importance": "high",
+      "generation": "Original",
+      "family_relation": "Non-family",
+      "military_affiliation": "8th Brigade",
+      "responsibilities": ["operation protection", "weapons trafficking", "military coordination"],
+      "profit_sharing": "Pays percentages to Ali Bash"
+    },
+    "muhammad_al_umiri": {
+      "name": "Muhammad Al-Umiri",
+      "alias": "Abu Khattar",
+      "role": "Jordanian Coordinator",
+      "description": "Cross-border coordinator from Al-Amirat Clan managing farm operations",
+      "photo": null,
+      "phone": null,
+      "connections": ["hayel_al_adamat"],
+      "firstAppearance": "july_2024_innovation",
+      "status": "active",
+      "importance": "medium",
+      "generation": "Original",
+      "family_relation": "Non-family",
+      "clan_affiliation": "Al-Amirat Clan",
+      "nationality": "Jordanian",
+      "responsibilities": ["cross-border coordination", "farm management"]
+    },
+    "hayel_al_adamat": {
+      "name": "Hayel Al-Adamat",
+      "alias": "Abu Khaled",
+      "role": "Cross-Border Smuggler",
+      "description": "Manages illegal border crossings and warehouse operations with hay bag camouflage",
+      "photo": null,
+      "phone": "(+963) 943684631",
+      "connections": ["muhammad_al_umiri"],
+      "firstAppearance": "july_2024_innovation",
+      "status": "active",
+      "importance": "medium",
+      "generation": "Original",
+      "family_relation": "Non-family",
+      "capabilities": ["illegal border crossing", "warehouse management"],
+      "warehouse_location": "Al-Saada Farms (hay bag camouflage)"
+    }
+  },
+  "locations": {
+    "damascus": {
+      "name": "Damascus Government Offices",
+      "coordinates": [36.2765, 33.5138],
+      "type": "government_facility",
+      "description": "Syrian government administrative center",
+      "owner": "syrian_government",
+      "capabilities": ["administration", "import_processing"],
+      "security_level": "high",
+      "status": "operational"
+    },
+    "ghasm_farm": {
+      "name": "Ghasm Village Farm",
+      "coordinates": [36.3878, 32.5005],
+      "type": "production_facility",
+      "description": "Border farm converted to fortified production facility",
+      "owner": "rafi_al_ruwais",
+      "capabilities": ["pill_production", "storage", "distribution"],
+      "security_level": "high",
+      "status": "operational"
+    },
+    "outpost_89": {
+      "name": "Border Outpost 89",
+      "coordinates": [36.3945, 32.4987],
+      "type": "smuggling_point",
+      "description": "Strategic border crossing point",
+      "owner": "syrian_military",
+      "capabilities": ["border_control", "smuggling"],
+      "security_level": "medium",
+      "status": "operational"
+    },
+    "border_positions": {
+      "name": "Mortar Launch Positions",
+      "coordinates": [36.3912, 32.4992],
+      "type": "tactical_position",
+      "description": "Strategic positions for 82mm mortar deployment",
+      "owner": "al_ruwais_network",
+      "capabilities": ["long_range_delivery"],
+      "security_level": "medium",
+      "status": "operational"
+    },
+    "maaraba_fortress": {
+      "name": "Maaraba Fortified Compound",
+      "coordinates": [36.39069, 32.50119],
+      "type": "headquarters",
+      "description": "Residential & operational compound with 15+ permanent residents",
+      "owner": "al_ruwais_network",
+      "capabilities": ["residential", "operational_command", "weapons_storage"],
+      "security_level": "high",
+      "status": "operational",
+      "compound_type": "Residential & Operational",
+      "permanent_residents": 15,
+      "resident_types": ["Al-Ruwais family members", "3 Jordanian nationals", "Security personnel"],
+      "operational_status": "24/7 active operations",
+      "evolution_phase": "Phase 5: Recovery & Innovation"
+    },
+    "al_saada_farms": {
+      "name": "Al-Saada Farms Warehouse",
+      "coordinates": [36.4, 32.5],
+      "type": "storage_facility",
+      "description": "Hay bag covered warehouse for drug storage and distribution staging",
+      "owner": "hayel_al_adamat",
+      "capabilities": ["drug_storage", "distribution_staging"],
+      "security_level": "medium",
+      "status": "operational",
+      "camouflage": "Hay bag covered warehouse",
+      "operator": "Hayel Al-Adamat"
+    }
+  },
+  "operations": [
+    {
+      "id": "march_2022_suweida_operation",
+      "date": "2022-03-04",
+      "revenue": 700000,
+      "participants": ["rafi_al_ruwais", "khaldoun_al_hatiti"],
+      "location": "outpost_89",
+      "type": "smuggling",
+      "outcome": "successful",
+      "description": "Major funding operation that enabled network expansion"
+    },
+    {
+      "id": "july_2022_production_start",
+      "date": "2022-07-15",
+      "revenue": 0,
+      "participants": ["rafi_al_ruwais", "muhammad_al_ruwais"],
+      "location": "ghasm_farm",
+      "type": "production",
+      "outcome": "successful",
+      "description": "First large-scale production run at expanded facility"
+    },
+    {
+      "id": "may_2023_disruption",
+      "date": "2023-05-12",
+      "revenue": -500000,
+      "participants": ["ahmed_al_ruwais"],
+      "location": "damascus",
+      "type": "crisis_response",
+      "outcome": "adapted",
+      "description": "Response to Israeli airstrikes and leadership transition"
+    },
+    {
+      "id": "july_2024_mortar_test",
+      "date": "2024-07-01",
+      "revenue": 0,
+      "participants": ["ahmed_al_ruwais", "muhammad_al_ruwais"],
+      "location": "border_positions",
+      "type": "innovation",
+      "outcome": "successful",
+      "description": "First successful test of 82mm mortar delivery system"
+    }
+  ],
+  "opposition_forces": {
+    "anti_drug_vigilantes": {
+      "name": "Anti-Drug Vigilante Groups",
+      "type": "opposition_force",
+      "capabilities": ["intelligence gathering", "headquarters raids", "arrests"],
+      "impact_level": "medium",
+      "notable_operations": [
+        "Abdul Azeez Al-Ruwais headquarters raid",
+        "Multiple arrest attempts on Hayel Al-Adamat"
+      ],
+      "network_response": "Civilian hostage-taking for prisoner exchanges"
+    },
+    "jordanian_security": {
+      "name": "Jordanian Security Forces",
+      "type": "state_opposition",
+      "components": ["Border Guards", "Security Services"],
+      "capabilities": ["border prevention", "mortar shell interception"],
+      "effectiveness": "Mixed - some operations stopped, others successful"
+    }
+  },
+  "financial_data": {
+    "revenue_streams": [
+      {
+        "type": "drug_manufacturing",
+        "description": "Captagon production facilities"
+      },
+      {
+        "type": "cross_border_smuggling",
+        "description": "Jordan market operations"
+      },
+      {
+        "type": "weapons_trafficking",
+        "description": "Stolen military weapons sold to smugglers"
+      },
+      {
+        "type": "transportation_services",
+        "description": "Coordination for other smuggling groups"
+      }
+    ],
+    "operational_costs": [
+      "Armed security details",
+      "Surveillance equipment",
+      "Military bribes and profit sharing",
+      "Equipment and technology acquisition"
+    ]
+  },
+  "innovations": [
+    {
+      "id": "mortar_delivery_system",
+      "date": "2024-07",
+      "description": "82mm mortar system for cross-border drug delivery",
+      "inventors": ["ahmed_al_ruwais", "muhammad_al_ruwais"],
+      "specifications": {
+        "range": "3km",
+        "payload": "plastic_encased_drugs",
+        "supplier": "hezbollah",
+        "accuracy": "high",
+        "detection_risk": "low"
+      },
+      "impact": "revolutionary"
+    },
+    {
+      "id": "fortified_compound",
+      "date": "2023-01",
+      "description": "Concrete walls, watchtowers, and security systems",
+      "inventors": ["ahmed_al_ruwais"],
+      "specifications": {
+        "wall_height": "4m",
+        "watchtower_count": "3",
+        "security_cameras": "12",
+        "armed_guards": "6-8"
+      },
+      "impact": "defensive"
+    }
+  ]
+}
