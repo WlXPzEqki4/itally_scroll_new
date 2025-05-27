@@ -871,6 +871,90 @@ const Index = () => {
                 </div>
               </div>
 
+              {/* Phase 3: Crisis & Disruption */}
+              <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-700">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                    <span className="text-yellow-400 font-bold text-lg">3</span>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-semibold text-white">Crisis & Disruption</h3>
+                    <p className="text-gray-400">October 2022 - February 2023 • Duration: 5 months</p>
+                  </div>
+                </div>
+                <div className="grid lg:grid-cols-2 gap-8">
+                  <div>
+                    <p className="text-gray-300 mb-6">Major law enforcement operations and internal disruptions</p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-yellow-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Syrian and international raids on facilities</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-yellow-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Key members arrested or forced to flee</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-yellow-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Temporary loss of production capacity</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-slate-700/50 rounded-lg p-4 text-center">
+                      <div className="text-2xl font-bold text-yellow-400 mb-1">7-10</div>
+                      <div className="text-xs text-gray-400">Members</div>
+                    </div>
+                    <div className="bg-slate-700/50 rounded-lg p-4 text-center">
+                      <div className="text-2xl font-bold text-red-400 mb-1">Severe</div>
+                      <div className="text-xs text-gray-400">Threat Level</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Phase 4: Fortress Phase */}
+              <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-700">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center">
+                    <span className="text-blue-400 font-bold text-lg">4</span>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-semibold text-white">Fortress Phase</h3>
+                    <p className="text-gray-400">March 2023 - June 2024 • Duration: 16 months</p>
+                  </div>
+                </div>
+                <div className="grid lg:grid-cols-2 gap-8">
+                  <div>
+                    <p className="text-gray-300 mb-6">Defensive consolidation, adaptation, and infrastructure hardening</p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-blue-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Maaraba Fortress constructed, security perimeter enforced</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-blue-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Redundant supply lines and safe houses established</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 bg-blue-400 rounded-full flex-shrink-0"></div>
+                        <span className="text-gray-300 text-sm">Increased operational secrecy and compartmentalization</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-slate-700/50 rounded-lg p-4 text-center">
+                      <div className="text-2xl font-bold text-blue-400 mb-1">12-16</div>
+                      <div className="text-xs text-gray-400">Members</div>
+                    </div>
+                    <div className="bg-slate-700/50 rounded-lg p-4 text-center">
+                      <div className="text-2xl font-bold text-purple-400 mb-1">Very High</div>
+                      <div className="text-xs text-gray-400">Threat Level</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-700">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center">
