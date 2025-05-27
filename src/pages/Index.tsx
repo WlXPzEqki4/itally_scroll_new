@@ -114,11 +114,12 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="grid lg:grid-cols-3 gap-8 mb-16">
-              <div className="lg:col-span-2">
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid lg:grid-cols-4 gap-8 mb-16">
+              <div className="lg:col-span-3">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                  {/* Row 1 */}
                   <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">13</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">12</div>
                     <div className="text-gray-300 text-sm mb-1">Intelligence Reports</div>
                     <div className="text-xs text-gray-500">Mar 2022 - Aug 2024</div>
                   </div>
@@ -128,8 +129,8 @@ const Index = () => {
                     <div className="text-xs text-gray-500">Foundation → Innovation</div>
                   </div>
                   <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
-                    <div className="text-4xl font-bold text-green-400 mb-2">7</div>
-                    <div className="text-gray-300 text-sm mb-1">Family Members</div>
+                    <div className="text-4xl font-bold text-green-400 mb-2">3</div>
+                    <div className="text-gray-300 text-sm mb-1">Active Generations</div>
                     <div className="text-xs text-gray-500">Multi-generational</div>
                   </div>
                   <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
@@ -137,6 +138,7 @@ const Index = () => {
                     <div className="text-gray-300 text-sm mb-1">Countries</div>
                     <div className="text-xs text-gray-500">Syria, Lebanon, Jordan, Iran</div>
                   </div>
+                  {/* Row 2 */}
                   <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
                     <div className="text-4xl font-bold text-orange-400 mb-2">$700K+</div>
                     <div className="text-gray-300 text-sm mb-1">Per Operation</div>
@@ -146,6 +148,27 @@ const Index = () => {
                     <div className="text-4xl font-bold text-red-400 mb-2">8th</div>
                     <div className="text-gray-300 text-sm mb-1">Brigade Level</div>
                     <div className="text-xs text-gray-500">Military Integration</div>
+                  </div>
+                  <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
+                    <div className="text-4xl font-bold text-blue-400 mb-2">15+</div>
+                    <div className="text-gray-300 text-sm mb-1">Permanent Residents</div>
+                    <div className="text-xs text-gray-500">Aug 2024 Status</div>
+                  </div>
+                  <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
+                    <div className="text-4xl font-bold text-purple-400 mb-2">3km</div>
+                    <div className="text-gray-300 text-sm mb-1">Mortar Range</div>
+                    <div className="text-xs text-gray-500">Technology Innovation</div>
+                  </div>
+                  {/* Row 3 */}
+                  <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
+                    <div className="text-4xl font-bold text-green-400 mb-2">15</div>
+                    <div className="text-gray-300 text-sm mb-1">Recovery Time</div>
+                    <div className="text-xs text-gray-500">May 2023 - Aug 2024</div>
+                  </div>
+                  <div className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-6 border border-slate-700 text-center">
+                    <div className="text-4xl font-bold text-yellow-400 mb-2">19</div>
+                    <div className="text-gray-300 text-sm mb-1">Next-Gen Leader Age</div>
+                    <div className="text-xs text-gray-500">Generational Transition</div>
                   </div>
                 </div>
               </div>
