@@ -177,33 +177,37 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="bg-slate-800/20 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
-              <h3 className="text-white font-semibold text-xl mb-6">Evolution Highlights</h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
-                    <span className="text-gray-300">Government advisor supply chain coordination</span>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-3 h-3 bg-purple-500 rounded-full flex-shrink-0 mt-1"></div>
-                    <span className="text-gray-300">Hezbollah base with heavy weapons</span>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
-                    <span className="text-gray-300">Survived major airstrike, 15-month recovery</span>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4">
-                    <div className="w-3 h-3 bg-yellow-500 rounded-full flex-shrink-0 mt-1"></div>
-                    <span className="text-gray-300">Drone and mortar delivery systems</span>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-3 h-3 bg-red-500 rounded-full flex-shrink-0 mt-1"></div>
-                    <span className="text-gray-300">Brigade-level military integration</span>
-                  </div>
-                </div>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              {/* Evolution Highlights */}
+              <div className="bg-slate-800/20 backdrop-blur-sm rounded-xl p-8 border border-slate-700 flex flex-col">
+                <h3 className="text-white font-semibold text-xl mb-4">Evolution Highlights</h3>
+                <ul className="space-y-3 text-gray-300 text-sm">
+                  <li><span className="text-blue-400 font-bold">2022:</span> Ministry-level government penetration established</li>
+                  <li><span className="text-purple-400 font-bold">2023:</span> Fortified military compound with heavy weapons</li>
+                  <li><span className="text-pink-400 font-bold">May 2023:</span> Survived Jordanian airstrike, leadership succession</li>
+                  <li><span className="text-green-400 font-bold">2024:</span> Mortar/drone technology, Brigade-level integration</li>
+                  <li><span className="text-yellow-300 font-bold">Aug 2024:</span> 15+ residential compound, imminent operations</li>
+                </ul>
+              </div>
+              {/* Critical Infrastructure */}
+              <div className="bg-slate-800/20 backdrop-blur-sm rounded-xl p-8 border border-slate-700 flex flex-col">
+                <h3 className="text-white font-semibold text-xl mb-4">Critical Infrastructure</h3>
+                <ul className="space-y-3 text-gray-300 text-sm">
+                  <li><span className="text-blue-400 font-bold">3</span> Manufacturing Sites</li>
+                  <li><span className="text-green-400 font-bold">5+</span> Farm Facilities</li>
+                  <li><span className="text-orange-400 font-bold">1</span> Fortified Compound</li>
+                  <li><span className="text-red-400 font-bold">Multiple</span> Weapons Caches</li>
+                </ul>
+              </div>
+              {/* Current Status - Aug 2024 */}
+              <div className="bg-slate-800/20 backdrop-blur-sm rounded-xl p-8 border border-slate-700 flex flex-col">
+                <h3 className="text-white font-semibold text-xl mb-4">Current Status – Aug 2024</h3>
+                <ul className="space-y-3 text-gray-300 text-sm">
+                  <li><span className="text-orange-400 font-bold">Active:</span> Imminent smuggling operation</li>
+                  <li><span className="text-green-400 font-bold">Leadership:</span> Multi-generational transition complete</li>
+                  <li><span className="text-red-400 font-bold">Opposition:</span> Vigilante groups applying pressure</li>
+                  <li><span className="text-blue-400 font-bold">Technology:</span> Advanced delivery capabilities operational</li>
+                </ul>
               </div>
             </div>
           </div>
